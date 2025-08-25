@@ -6,10 +6,10 @@ use InvalidArgumentException;
 use UnexpectedValueException;
 
 /**
- * AbstractMatcher provides a base implementation for matchers
- * based on user-defined rules and rule types.
- * Supports predefined rulesets loaded from standalone PHP files.
- * Patterns can be strings or arrays.
+ * AbstractMatcher provides a base implementation for concrete matchers.
+ * It supports adding rules, loading rulesets from files, and registering custom rule types.
+ * Subclasses should implement specific matching logic by defining built-in rule types for most common use cases.
+ * See StringMatcher for a concrete example.
  */
 abstract class AbstractMatcher
 {
