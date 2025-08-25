@@ -1,0 +1,28 @@
+{
+    "name": "pieceofcodero/matcher",
+    "description": "A flexible pattern matching library with customizable rule types and support for various matcher implementations",
+    "type": "library",
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Pieceofcodero\\Matcher\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Pieceofcodero\\Matcher\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Zoli Szabó",
+            "email": "zoli.szabo+github@gmail.com"
+        }
+    ]
+}
